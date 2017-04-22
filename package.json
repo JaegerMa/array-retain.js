@@ -1,0 +1,24 @@
+{
+  "name": "array-retain",
+  "version": "1.0.0",
+  "description": "Retains elements in array that matches filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaegerMa/array-retain.js.git"
+  },
+  "keywords": [
+    "array",
+    "retain",
+    "filter"
+  ],
+  "author": "JaegerMa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaegerMa/array-retain.js/issues"
+  },
+  "homepage": "https://github.com/JaegerMa/array-retain.js#readme"
+}
