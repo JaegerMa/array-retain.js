@@ -15,7 +15,6 @@ function retain(array, filter)
 	
 	var len = array.length;
 	var futureIdx = 0;
-	var futureLen = len;
 	for(var i = 0; i < len; ++i)
 	{
 		if(filter(array[i]))
@@ -24,12 +23,8 @@ function retain(array, filter)
 				array[futureIdx] = array[i];
 			++futureIdx;
 		}
-		else
-		{
-			--futureLen;
-		}
 	}
-	array.length = futureLen;
+	array.length = futureIdx;
 	return array;
 }
 
