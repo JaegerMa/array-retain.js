@@ -28,4 +28,5 @@ function retain(array, filter)
 	return array;
 }
 
-module.exports = retain;
+if(exports)
+	module.exports = retain;
